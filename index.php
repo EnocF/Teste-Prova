@@ -1,0 +1,31 @@
+<php 
+include_once("SQL/con.php");
+
+
+$result = mysqli_query($mysqli, "SELECT * FROM DQCMODEL ORDER BY Id DESC");
+?>
+
+<html>
+<head>
+    <title>TABELA DQCMODEL</title>
+</head>
+
+<body>
+<a href="inserir.php">INSERIR CONTEUDO</a><br/><br/>
+
+    <table width='80%' border=1>
+
+    <tr>
+        <th>ID</th> <th>Model</th>
+    </tr>
+    <?php
+    while($model = mysqli_fetch_array($result)) {
+        echo "<tr>";
+        echo "<td>".$model['Id']."</td>";
+        echo "<td>".$model['Model']."</td>";
+        echo "<td><a href='edit.php?id=$model[Id]'>Edit</a> | <a href='delete.php?id=$model[Id]'>Delete</a></td></tr>";
+    }
+    ?>
+    </table>
+</body>
+</html>
