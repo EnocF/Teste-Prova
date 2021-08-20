@@ -11,7 +11,7 @@
 	<form action="Controle/con_inserir.php" method="post" name="form1">
 		<table width="25%" border="0">
 			<tr>
-				<td>Id</td></td>
+				<td>Id</td>
 				<td><input type="text" name="Id"></td>
 			</tr>
 			<tr>
