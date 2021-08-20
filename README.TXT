@@ -10,9 +10,13 @@ Servidor Apache, banco de dados MySQL.
 .Devido a problemas de conexão acabei colocando "127.0.0.1" no lugar de localhost, em con.php, mas tudo bem usarem localhost aí.
 .Informacoes de conexao: localhost, Usuário: root, Senha: root, banco: teste
 
-Partes funcionais
+-- Partes funcionais
 .Listar tabelas = ok
 .editar = ok
 .inserir = ok
-.excluir = em andamento
+.excluir = ok
 .exportar em Excel = em andamento
+
+-- Resumo:
+Tá um sistema bem simples, bem funcional com as operações CRUD.
+O que eu pretendia fazer se tivesse conseguido um servidor à tempo: uma tabela dinâmica usando javascript onde seria possível alternar entre as tabelas apenas clicando em uma caixa de seleção.
