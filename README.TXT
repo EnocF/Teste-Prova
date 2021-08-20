@@ -14,5 +14,5 @@ Partes funcionais
 .Listar tabelas = ok
 .editar = ok
 .inserir = ok
-.excluir = em andamento
+.excluir = ok
 .exportar em Excel = em andamento
