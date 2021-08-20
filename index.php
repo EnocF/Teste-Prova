@@ -6,6 +6,7 @@ $result = mysqli_query($mysqli, "SELECT * FROM DQCMODEL");
 ?>
 
 <html>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
 <head>
     <title>TABELA DQCMODEL</title>
 </head>
