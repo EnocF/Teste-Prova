@@ -15,8 +15,8 @@ $result = mysqli_query($mysqli, "SELECT * FROM DQCMODEL");
 <a href="inserir.php">INSERIR CONTEUDO</a>
 <br/><br/>
 
-    <table width='40%' border=1>
-
+    <table width='80%' border=1>
+        <tr>TABELA: DQCMODEL</tr>
     <tr>
         <th>ID</th> <th>Model</th> <th>Operações</th>
     </tr>
