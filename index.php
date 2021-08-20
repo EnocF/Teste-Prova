@@ -24,7 +24,7 @@ $result = mysqli_query($mysqli, "SELECT * FROM DQCMODEL");
         echo "<tr>";
         echo "<td>".$model['Id']."</td>";
         echo "<td>".$model['Model']."</td>";
-        echo "<td><a href='edit.php?id=$model[Id]'>Edit</a> | <a href='delete.php?id=$model[Id]'>Delete</a></td></tr>";
+        echo "<td><a href='editar.php?id=$model[Id]'>Edit</a> | <a href='delete.php?id=$model[Id]'>Delete</a></td></tr>";
     }
     ?>
     </table>
