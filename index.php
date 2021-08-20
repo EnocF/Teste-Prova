@@ -1,8 +1,8 @@
-<php 
+<?php
 include_once("SQL/con.php");
 
 
-$result = mysqli_query($mysqli, "SELECT * FROM DQCMODEL ORDER BY Id DESC");
+$result = mysqli_query($mysqli, "SELECT * FROM DQCMODEL");
 ?>
 
 <html>
@@ -11,15 +11,16 @@ $result = mysqli_query($mysqli, "SELECT * FROM DQCMODEL ORDER BY Id DESC");
 </head>
 
 <body>
-<a href="inserir.php">INSERIR CONTEUDO</a><br/><br/>
+<a href="inserir.php">INSERIR CONTEUDO</a>
+<br/><br/>
 
-    <table width='80%' border=1>
+    <table width='40%' border=1>
 
     <tr>
-        <th>ID</th> <th>Model</th>
+        <th>ID</th> <th>Model</th> <th>Operações</th>
     </tr>
     <?php
-    while($model = mysqli_fetch_array($result)) {
+    while($model=mysqli_fetch_array($result)){
         echo "<tr>";
         echo "<td>".$model['Id']."</td>";
         echo "<td>".$model['Model']."</td>";
