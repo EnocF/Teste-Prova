@@ -12,7 +12,12 @@ $result = mysqli_query($mysqli, "SELECT * FROM DQCMODEL");
 </head>
 
 <body>
+<div align=left>
 <a href="inserir.php">INSERIR CONTEUDO</a>
+</div><br>
+<div align=left>
+    <a href="Controle/imprimir2.php">REPORT DQCMODEL</a>
+</div>
 <br/><br/>
 
     <table width='80%' border=1>
