@@ -24,7 +24,6 @@
 .Testes em Chrome e Brave.
 
 -- Bugs conhecidos:
-.Algumas mensagens de retorno e finalizações não condizem com o tema do projeto.
 .Atualmente não há ainda um meio de impedir cadastro/edição de Ids duplicadas.
 
 -- Comentarios:
