@@ -31,7 +31,7 @@
 
 -- Bugs conhecidos:
 .Atualmente não há ainda um meio de impedir cadastro/edição de Ids duplicadas.
-.O arquivo gerado em Excel parece não estar sendo formatado corretamente, pelo menos nao pata minha versão do Office.
+.O arquivo gerado em Excel parece não estar sendo formatado corretamente, pelo menos não para minha versão do Office.
 
 -- Comentarios:
 Tá um sistema bem simples, bem funcional com as operações CRUD.
