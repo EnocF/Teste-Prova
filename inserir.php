@@ -12,7 +12,7 @@
 		<table width="25%" border="0">
 			<tr>
 				<td>Id</td>
-				<td><input type="text" name="Id"></td>
+				<td><input type="text" name="Id"></input></td>
 			</tr>
 			<tr>
 				<td>Model</td>
