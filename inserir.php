@@ -1,11 +1,11 @@
 <html>
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1"/>
-	<title>INSERIR MODELOS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<title>Inserir Modelo</title>
 </head>
 
 <body>
-	<a href="index.php">Go to Home</a>
+	<a href="index.php">Retornar</a>
 	<br/><br/>
 
 	<form action="Controle/con_inserir.php" method="post" name="form1">
