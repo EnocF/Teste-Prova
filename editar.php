@@ -13,7 +13,7 @@ $e_model = mysqli_fetch_array($result);
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-	<title>Editar Modelo</title>
+<title>Editar Modelo</title>
 </head>
 
 <body>
@@ -23,8 +23,7 @@ $e_model = mysqli_fetch_array($result);
 	<form name="edit" method="post" action="Controle/con_editar.php">
 		<table border="0">
 			<tr>
-				<td>Id  <?php echo $id;?></title>
-</head></td>
+				<td>Id</td>
 				<td><input type="text" name="Id" value=<?php echo $id;?>></td>
 			</tr>
 			<tr>
