@@ -1,5 +1,4 @@
 -- Histórico
-
 17/08/20
 .Não testei em um servidor, mas até onde vi está funcionando bem.
 .Apenas a função de Inserir pronta.
