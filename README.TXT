@@ -1,4 +1,4 @@
-Servidor Apache, banco de dados MySQL.
+-- Histórico
 
 17/08/20
 .Não testei em um servidor, mas até onde vi está funcionando bem.
@@ -16,6 +16,12 @@ Servidor Apache, banco de dados MySQL.
 .inserir = ok
 .excluir = ok
 .exportar em Excel = em andamento
+
+-- Ferramentas usadas:
+.AwebServer: aplicativo para gerar um servidor Apache e um banco de dados MySQL no Android.
+.Editor de códigos comum.
+.Uma base de um CRUD simples
+.Testes em Chrome e Brave.
 
 -- Bugs conhecidos:
 .Algumas mensagens de retorno e finalizações não condizem com o tema do projeto.
