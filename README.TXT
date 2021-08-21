@@ -12,12 +12,12 @@
 21/08/2021
 .Finalizadas as operações CRUD
 .Nomes de links corrigidos
-.AAcrescentado "readonly" no Id na hora de editar, evitando modificações, apenas o Model pode ser alterado então.
+.Acrescentado "readonly" no Id na hora de editar, evitando modificações, apenas o Model pode ser alterado então.
 .Acrescentado função de exportar em Excel
 
 -- Ferramentas usadas:
 .Galaxy A10.
-.AwebServer: aplicativo para gerar um servidor Apache e um banco de dados MySQL no Android.
+.AWebServer: aplicativo para gerar um servidor Apache e um banco de dados MySQL no Android.
 .Editor de códigos comum.
 .Uma base de um CRUD simples
 .Testes em Chrome e Brave.
