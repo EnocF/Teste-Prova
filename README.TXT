@@ -27,6 +27,6 @@
 .Algumas mensagens de retorno e finalizações não condizem com o tema do projeto.
 .Atualmente não há ainda um meio de impedir cadastro/edição de Ids duplicadas.
 
--- Resumo:
+-- Comentarios:
 Tá um sistema bem simples, bem funcional com as operações CRUD.
 O que eu pretendia fazer se tivesse conseguido um servidor à tempo: uma tabela dinâmica usando javascript onde seria possível alternar entre as tabelas apenas clicando em uma caixa de seleção.
