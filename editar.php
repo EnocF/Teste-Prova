@@ -24,14 +24,13 @@ $e_model = mysqli_fetch_array($result);
 		<table border="0">
 			<tr>
 				<td>Id</td>
-				<td><input type="text" name="Id" value=<?php echo $id;?>></td>
+				<td><input type="text" name="id" value=<?php echo $id;?> readonly></td>
 			</tr>
 			<tr>
 				<td>Modelo</td>
 				<td><input type="text" name="model" value=<?php echo $model;?>></td>
 			</tr>
 			<tr>
-				<td><input type="hidden" name="id" value=<?php echo $_GET['id'];?>></td>
 				<td><input type="submit" name="Update" value="Update"></td>
 			</tr>
 		</table>
