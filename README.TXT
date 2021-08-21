@@ -18,6 +18,7 @@
 .exportar em Excel = em andamento
 
 -- Ferramentas usadas:
+.Galaxy A10.
 .AwebServer: aplicativo para gerar um servidor Apache e um banco de dados MySQL no Android.
 .Editor de códigos comum.
 .Uma base de um CRUD simples
