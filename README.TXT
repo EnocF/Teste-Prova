@@ -15,13 +15,6 @@
 .AAcrescentado "readonly" no Id na hora de editar, evitando modificações, apenas o Model pode ser alterado então.
 .Acrescentado função de exportar em Excel
 
--- Partes funcionais
-.Listar tabelas = ok
-.editar = ok
-.inserir = ok
-.excluir = ok
-.exportar em Excel = em andamento
-
 -- Ferramentas usadas:
 .Galaxy A10.
 .AwebServer: aplicativo para gerar um servidor Apache e um banco de dados MySQL no Android.
