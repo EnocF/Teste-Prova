@@ -1,24 +1,17 @@
 <?php
 include_once("SQL/con.php");
-
-
 $result = mysqli_query($mysqli, "SELECT * FROM DQCMODEL");
 ?>
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <title>TABELA DQCMODEL</title>
 </head>
-
 <body>
 <div align=left>
 <a href="inserir.php">INSERIR CONTEUDO</a>
-</div><br>
-<div align=left>
-    <a href="Controle/imprimir2.php">REPORT DQCMODEL</a>
 </div>
-<br/><br/>
+<br><br/>
 
     <table width='80%' border=1>
         <tr>TABELA: DQCMODEL</tr>
