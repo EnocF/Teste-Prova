@@ -13,7 +13,6 @@
 .Finalizadas as operações CRUD
 .Nomes de links corrigidos
 .Acrescentado "readonly" no Id na hora de editar, evitando modificações, apenas o Model pode ser alterado então.
-.Acrescentado função de exportar em Excel
 
 -- Ferramentas usadas:
 .Galaxy A10.
@@ -27,4 +26,4 @@
 
 -- Comentarios:
 Tá um sistema bem simples, bem funcional com as operações CRUD.
-O que eu pretendia fazer se tivesse conseguido um servidor à tempo: uma tabela dinâmica usando javascript onde seria possível alternar entre as tabelas apenas clicando em uma caixa de seleção.
+Para modificações futuras: uma tabela dinâmica usando javascript onde seria possível alternar entre as tabelas apenas clicando em uma caixa de seleção.
